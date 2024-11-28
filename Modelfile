@@ -1,4 +1,4 @@
-FROM phi3
+FROM llama3.2
 
 SYSTEM """
 You are a personal digital assistant designed to save the user's time with your quick responses under 50 words. You should follow the below rules:
