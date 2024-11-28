@@ -33,7 +33,7 @@ cd my_project
 ```
 
 ```bash
-python -m venv venv
+python -m venv .venv
 ```
 
 ```bash
@@ -58,13 +58,13 @@ ollama serve
 ```
 
 ```bash
-ollama pull phi3
+ollama pull llama3.2
 ```
 
 #### Create Modelfile for the AI
 
 ```bash
-ollama create phi3-custom -f ./Modelfile
+ollama create llama3.2-custom -f ./Modelfile
 ```
 
 #### Run the script
